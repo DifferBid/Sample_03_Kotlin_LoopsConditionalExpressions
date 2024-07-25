@@ -1,7 +1,6 @@
 
 package org.example
 
-
     enum class Color(private val number: Int) {
         RED(1),
         ORANGE(2),
@@ -10,15 +9,11 @@ package org.example
         BLUE(5),
         INDIGO(6) ,
         ONEPlusONE(7);
-
         // Функция для получения числа, связанного с цветом
         fun getNumber(): Int {
             return number
         }
-
     }
-
-
 
     fun main() {
 
@@ -98,7 +93,6 @@ package org.example
 
     /**-----Example 03-----*/
     fun getView(image:String){
-
         // Определяем текущую видимость с помощью when.
         when(image){
             "VISIBLE" -> println("Image Visible")
