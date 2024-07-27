@@ -96,7 +96,5 @@ fun main() {
         //: For loop 1 to 10 continue if number is 5
         //: 1 2 3 4 Meow 6 7 8 9 10
     }
-
-
 }
 
